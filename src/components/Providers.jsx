@@ -65,6 +65,9 @@ export default function Providers() {
       ) : (
         <div className="rounded-xl border border-dashed border-slate-300 p-10 text-center text-slate-600">
           No providers yet. Be the first to join and get discovered.
+          <div className="mt-4">
+            <a href="/auth" className="inline-flex items-center rounded-lg bg-slate-900 text-white px-4 py-2 text-sm font-medium hover:bg-slate-800 transition-colors">Create a provider account</a>
+          </div>
         </div>
       )}
     </section>
